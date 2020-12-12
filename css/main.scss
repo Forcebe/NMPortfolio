@@ -14,17 +14,13 @@ ul {
 
 a {
   text-decoration: none;
-  color: #6e00ff;
+  color: #2a4e50;
   font-weight: bold;
 }
 
 a:hover {
-  color: #ff64cb;
+  color: #3c6e71;
   font-weight: normal;
-}
-
-a:visited {
-  color: #623d94;
 }
 
 img {
@@ -32,7 +28,7 @@ img {
 }
 
 .nav-container {
-  background: #5a00d0;
+  background: #2a4e50;
 
   a {
     color: white;
@@ -47,7 +43,7 @@ header {
   padding: 2em;
 
   .logo {
-    color: #00f7ff;
+    color: #f2af29;
     font-weight: bold;
   }
 
@@ -68,7 +64,7 @@ header {
 }
 
 .hero {
-  background: #6e00ff;
+  background: #3c6e71;
   color: white;
   display: grid;
   text-align: center;
@@ -80,7 +76,7 @@ header {
   margin: 0 auto;
   width: 200px;
   font-weight: bold;
-  color: #ff64cb;
+  color: #f2af29;
 
   span {
     margin-top: 1em;
@@ -103,7 +99,7 @@ section {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #ff64cb;
+  background-color: #f2af29;
   top: 0;
   left: 0;
   z-index: -1;
@@ -113,7 +109,7 @@ section {
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
-  color: #6e00ff;
+  color: #3c6e71;
   letter-spacing: 0.2em;
   font-size: 0.85em;
 }
@@ -135,12 +131,12 @@ section {
 }
 
 .feature-skills {
-  background: #ff64cb;
+  background: #284b63;
 }
 
 #skills-title {
   font-size: 2em;
-  // padding-bottom: 1em;
+  color: white;
 }
 
 .feature-skills-container ul li {
@@ -211,7 +207,7 @@ section {
 }
 
 .about-me {
-  background: #00f7ff;
+  background: #3c6e71;
 }
 
 .about-left {
@@ -220,10 +216,15 @@ section {
 
 .about-title {
   margin-top: -2em;
+  color: #f2af29;
+}
+
+.about-link {
+  color: #f2af29;
 }
 
 .about-desc {
-  color: black;
+  color: white;
   margin-bottom: 3em;
   font-size: 0.8em;
   line-height: 1.8em;
@@ -240,16 +241,13 @@ section {
 }
 
 footer {
-  background: #5a00d0;
+  background: #2a4e50;
   padding: 2em;
 
   a {
     color: white;
     font-size: 0.7em;
     font-weight: normal;
-  }
-  a:visited {
-    color: white;
   }
 }
 
@@ -258,7 +256,7 @@ footer {
   justify-content: space-between;
 
   .logo {
-    color: #00f7ff;
+    color: #f2af29;
     font-weight: bold;
   }
 
@@ -353,14 +351,14 @@ footer {
 
 @media only screen and (min-width: 1050px) {
   .hero {
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 66% auto;
     background: unset;
     padding: 0;
 
     .content {
-      background: #6e00ff;
+      background: #3c6e71;
       padding: 6em 8em 6em 4em;
       text-align: left;
     }
@@ -388,7 +386,7 @@ footer {
     background: unset;
 
     header {
-      background: #5a00d0;
+      background: #2a4e50;
     }
   }
 
@@ -419,6 +417,10 @@ footer {
   .portfolio img {
     float: right;
     max-width: 500px;
+  }
+
+  .feature-skills-container ul {
+    grid-gap: 2em;
   }
 
   .skill-container {
