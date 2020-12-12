@@ -18,7 +18,6 @@ a {
 }
 
 a:hover {
-  color: #3c6e71;
   font-weight: normal;
 }
 
@@ -49,6 +48,8 @@ header {
 header .logo {
   color: #f2af29;
   font-weight: bold;
+  font-size: 1em;
+  margin-top: -0.3em;
 }
 
 header ul {
@@ -277,6 +278,8 @@ footer a {
 .footer-nav .logo {
   color: #f2af29;
   font-weight: bold;
+  font-size: 1em;
+  margin-top: -0.3em;
 }
 
 .footer-nav ul {
